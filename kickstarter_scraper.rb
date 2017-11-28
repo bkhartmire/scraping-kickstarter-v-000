@@ -7,3 +7,4 @@ def create_project_hash
   html = File.read('fixtures/kickerstarter.html')
   kickerstarter = Nokogiri::HTML(html)
 end
+binding.pry
